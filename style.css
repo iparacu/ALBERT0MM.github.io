@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    font-size: 16px;
+    color:  #000000;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: #111;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+header nav ul li{
+    margin-left: 30px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #2feebe;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.acerca{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+footer{
+  background: -prefix-linear-gradient(top, #2feebe, white);
+  background: linear-gradient(to bottom, #2feebe, white);
+}
